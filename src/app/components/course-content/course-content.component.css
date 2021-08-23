@@ -1,0 +1,113 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../../assets/background.jpg");
+    height: 60vh;
+    text-align: center;
+    color: #fff;
+    background-size:cover;
+    background-position: center;
+}
+
+header h1{
+    top: 35%;
+    position: relative;
+    font-size: 55px;
+}
+
+.row{
+    margin: 10px 20px;
+}
+
+img{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+
+.courses-section{
+    height: auto;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+.courses-section-header {
+    padding-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.courses-section-header  h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.courses-section-header  p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.box-section1{
+    margin-top: 50px;
+}
+
+.box-section1 .row{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.box-section1 .col-sm-3{
+    background-color: rgb(245, 141, 141) ;
+    text-align: center;
+    height: auto;
+    padding:40px 30px;
+    border-radius: 13px;
+}
+
+.box-section1 .col-sm-3:hover {
+    box-shadow: 0 0 30px 0px rgb(0,0,0,0.7);
+}
+
+.box-section1 .col-sm-3 p{
+    padding-top: 25px;
+}
+
+
+
+@media(max-width: 800px) {
+
+    header{
+        height: 50vh;
+    }
+
+    header h1{
+        top: 35%;
+        position: relative;
+        font-size: 40px;
+    }
+
+    .box-section1{
+        margin-top: 20px;
+    }
+    
+    .box-section1 .row{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .box-section1 .col-sm-3{
+        height: auto;
+        width: 70%;
+        padding:20px 10px;
+        margin: 10px auto;
+
+    }
+    
+    .box-section1 .col-sm-3 p{
+        padding-top: 15px;
+    }
+
+
+}

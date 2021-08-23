@@ -1,0 +1,58 @@
+footer {
+    background-color: rgb(4, 50, 87);
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+footer p{
+    font-size: 14px;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 3px;
+    color: grey;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details address{
+    font-family:cursive;
+    font-style: italic;
+    padding-right: 20px;
+    border-right: 1px solid #fff;
+}
+
+.social-media .fa{
+    margin-left: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.social-media .fa:hover{
+    color: rgb(211, 43, 43)
+}
+
+@media(max-width: 800px) {
+
+    footer h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    footer p{
+        font-size: 12px;
+    }
+
+}
+
+

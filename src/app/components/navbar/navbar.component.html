@@ -1,0 +1,17 @@
+
+<nav class="fluid-container navbar navbar-expand-lg sticky-top">
+    <div class="logo navbar-brand">
+        <a href="#"><img src="../../../assets/logo.png" alt="logo-image" /></a>
+    </div>
+        
+      <div class="nav-links pull-right">
+        <i id="collapse-expand" class="fa fa-bars" (click)="showMenu('menu-list','collapse-expand')"></i>
+        <ul id="menu-list" class="nav navbar-nav nav-menu">
+            <li class="nav-item"><a  routerLink="/" routerLinkActive = 'active'>HOME</a></li>
+            <li class="nav-item"><a routerLink="/about">ABOUT</a></li>
+            <li class="nav-item"><a routerLink="/course">COURSE</a></li>
+            <li class="nav-item"><a href="/" onclick="return false">BLOG</a></li>
+            <li class="nav-item"><a routerLink="/contact">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
