@@ -321,7 +321,7 @@ section{
 
 .box-section .col-sm-3{
     width: 80%;
-    height: 700px;
+    height: auto;
     position: relative;
     margin: 10px auto;
 }

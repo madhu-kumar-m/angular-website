@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-edu-website-0006": {
+      "hosting": {
+        "angular-website": [
+          "angular-edu-website-0006"
+        ]
+      }
+    }
+  }
+}
